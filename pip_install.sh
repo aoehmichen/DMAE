@@ -6,4 +6,4 @@
 
 sudo /usr/bin/anaconda/bin/pip install nltk
 
-sudo /usr/bin/anaconda/bin/python -m nltk.downloader all
+sudo /usr/bin/anaconda/bin/python -m nltk.downloader -d /usr/local/share/nltk_data all
